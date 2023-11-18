@@ -1,0 +1,5 @@
+name: HandGlider
+author: ShadowMikado
+api: [5.0.0]
+main: ShadowMikado\HandGlider\Main
+version: 1.0.0
