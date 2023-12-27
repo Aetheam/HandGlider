@@ -13,6 +13,6 @@ Set up the item id and permissions (if you want) in `config.yml`
 item: "slimeball"
 permission:
   enabled: false
-  name: "handglider.use"
+  name: "handglider.use" #permission is also handglider.handglider.use
 ```
 
