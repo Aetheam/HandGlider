@@ -32,7 +32,7 @@ class HandGlider implements Listener
     {
 
         if (Main::$config->getNested("permission.enabled")) {
-            if ($player->hasPermission(Main::$config->getNested("permission.name"))) {
+            if ($player->hasPermission("handglider." . Main::$config->getNested("permission.name"))) {
                 return true;
             } else {
                 return false;
